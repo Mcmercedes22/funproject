@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Rock+Salt');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+.navbar-brand {
+font-family: 'Rock Salt', cursive;
+}
+
+.jumbotron {
+  background-image: url("../img/MV.jpg");
+  height: 600px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.jumbotron>h1 {
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.79) ;
+  font-size: 45px;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-end;
+  font-family: 'Raleway', sans-serif;
+}
+
+#Bio, #Contactme {
+  height: 100vh;
+  padding-top: 50px;
+}
